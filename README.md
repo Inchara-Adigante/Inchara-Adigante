@@ -28,12 +28,10 @@ I'm a data engineer who builds platforms end to end: from raw, messy source data
 ### Featured projects
 
 #### 🛒 [ShopSense AI: Retail Intelligence and Real-Time Data Platform](https://github.com/Inchara-Adigante/Shopsense-AI)
-A retail data platform that answers one business question: *which products will run out of stock, what is driving their demand, and what should the business do?* It runs from six months of simulated retail data through an S3-style lake, PySpark transformations and a star-schema warehouse, to a dashboard and an AI assistant.
-- Incremental processing with write-audit-publish and 67 quality checks; an incremental build is **identical to a full rebuild** across all 10 warehouse tables
-- SCD Type 2 dimensions with point-in-time lookups, so **100% of order lines** carry the price that was valid on their order date
-- Spark Structured Streaming with watermarks and an exactly-once sink: **0 events lost or double-counted**, even after killing the job mid-stream
-- AI assistant that answers from the warehouse through read-only SQL tools, cites the rows behind every number, and flags invented figures
-- AWS infrastructure in Terraform (S3, Glue, Athena, Redshift Serverless), with CI on GitHub Actions
+A retail data platform that predicts which products will run out of stock, explains what is driving their demand, and recommends what to reorder. It runs from simulated retail data through an S3-style lake, PySpark and a star-schema warehouse, to a dashboard and an AI assistant.
+- Incremental pipeline with 67 quality checks that gives **the same result as a full rebuild** across all 10 warehouse tables
+- Real-time Spark Streaming with **0 events lost or double-counted**, even after killing the job mid-stream
+- AI assistant that answers from the warehouse and **cites the rows behind every number**
 
 `PySpark` `Spark Streaming` `SQL` `DuckDB` `Airflow` `AWS` `Terraform` `Streamlit` `Claude API`
 
