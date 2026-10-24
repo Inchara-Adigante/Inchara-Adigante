@@ -35,6 +35,14 @@ A retail data platform that predicts which products will run out of stock, expla
 
 `PySpark` `Spark Streaming` `SQL` `DuckDB` `Airflow` `AWS` `Terraform` `Streamlit` `Claude API`
 
+#### 🎟️ [Event Management Database](https://github.com/Inchara-Adigante/Event-management-DB)
+A PostgreSQL database for an event ticketing platform (venues, events and agendas, ticket tiers, orders, refunds, waitlists and door check-ins) that enforces its own business rules with constraints, triggers and transactional functions.
+- Checkout that **never oversells**: 40 concurrent buyers for 25 seats gives exactly 25 tickets, every run
+- No double-booked rooms (exclusion constraints), a ticket that gets in only once, and **row-level security** per organizer
+- ~2 million rows of realistic data, 47 automated tests, 18 analytics questions in SQL, and indexes measured up to **4,400× faster**
+
+`PostgreSQL` `PL/pgSQL` `SQL` `Python` `pytest` `GitHub Actions`
+
 #### ⚡ [EV Reliability Intelligence & Failure Prediction Platform](https://github.com/Inchara-Adigante/ev-reliability-platform)
 An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs. It runs from data generation through validation, a SQL Server warehouse, Weibull reliability analysis and a TensorFlow model that predicts component failures in the next 90 days.
 - Validation and transformation pipeline that rejects bad records with reasons and logs every load to a `pipeline_log` table
@@ -57,7 +65,7 @@ An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs.
 
 **Data & ML:** ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=flat&logo=scipy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 
-**Databases:** ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apachecassandra&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat&logo=amazonredshift&logoColor=white)
+**Databases:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apachecassandra&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat&logo=amazonredshift&logoColor=white)
 
 **Pipelines & DevOps:** ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
 
@@ -70,6 +78,6 @@ An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs.
 ### GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=Inchara-Adigante&theme=transparent&hide_border=true&show_icons=true" alt="GitHub stats">
-  <img height="165" src="https://streak-stats.demolab.com/?user=Inchara-Adigante&theme=transparent&hide_border=true" alt="GitHub streak">
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=Inchara-Adigante&theme=transparent&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=21600" alt="GitHub stats">
+  <img height="165" src="https://streak-stats.demolab.com/?user=Inchara-Adigante&theme=transparent&hide_border=true&mode=daily" alt="GitHub streak">
 </p>
