@@ -19,7 +19,7 @@ I'm a data engineer who builds platforms end to end: from raw, messy source data
 - 🏗️ **Data engineering:** PySpark batch and Structured Streaming, data lakes on S3, star schemas with SCD Type 2, incremental loads and backfills, Airflow orchestration
 - ✅ **Data quality & reliability:** write-audit-publish, automated quality checks, exactly-once streaming sinks, monitoring and runbooks
 - 🤖 **ML & AI:** TensorFlow, scikit-learn, reliability analysis, LLM agents with tool use and grounded, cited answers
-- ☁️ **Cloud & DevOps:** AWS (S3, Glue, Athena, Redshift), GCP, Azure, Terraform, Docker, CI/CD with GitHub Actions
+- ☁️ **Cloud & DevOps:** AWS (S3, Glue, Athena, Redshift) infrastructure as code, GCP, Azure, Terraform, Docker, CI/CD with GitHub Actions
 - 📊 **Analytics:** SQL, DuckDB, Power BI (DAX), Streamlit, Splunk
 - 📫 Open to **Data Engineer, Analytics Engineer and ML Engineer** roles
 
