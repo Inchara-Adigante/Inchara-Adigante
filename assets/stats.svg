@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="190" viewBox="0 0 720 190" role="img" aria-label="GitHub activity"><title>GitHub activity</title>
+<style>
+  .bg { fill: #ffffff; stroke: #d0d7de; }
+  .title { font: 600 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #1f2328; }
+  .label { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #59636e; }
+  .value { font: 700 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #1f2328; }
+  .small { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #59636e; }
+  .accent { fill: #8250df; }
+  .l0 { fill: #eff2f5; } .l1 { fill: #d8c7ff; } .l2 { fill: #b392f0; } .l3 { fill: #8250df; } .l4 { fill: #5a32a3; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; stroke: #30363d; }
+    .title, .value { fill: #e6edf3; }
+    .label, .small { fill: #9198a1; }
+    .accent { fill: #a371f7; }
+    .l0 { fill: #161b22; } .l1 { fill: #3c2a6b; } .l2 { fill: #5a3ea8; } .l3 { fill: #8957e5; } .l4 { fill: #bc8cff; }
+  }
+</style><rect class="bg" x="0.5" y="0.5" width="719" height="189" rx="8"/><text class="title" x="24" y="34">GitHub activity</text><text class="small" x="696" y="34" text-anchor="end">146 contributions in the last 12 months</text><rect class="accent" x="24" y="56" width="3" height="40" rx="1.5"/><text class="value" x="36" y="78">146</text><text class="label" x="36" y="96">Contributions in 2026</text><rect class="accent" x="196" y="56" width="3" height="40" rx="1.5"/><text class="value" x="208" y="78">146</text><text class="label" x="208" y="96">Total contributions</text><rect class="accent" x="368" y="56" width="3" height="40" rx="1.5"/><text class="value" x="380" y="78">0 days</text><text class="label" x="380" y="96">Current streak</text><rect class="accent" x="540" y="56" width="3" height="40" rx="1.5"/><text class="value" x="552" y="78">10 days</text><text class="label" x="552" y="96">Longest streak (to Jul 31)</text><rect class="accent" x="24" y="118" width="3" height="40" rx="1.5"/><text class="value" x="36" y="140">45</text><text class="label" x="36" y="158">Active days, last 12 months</text><rect class="accent" x="196" y="118" width="3" height="40" rx="1.5"/><text class="value" x="208" y="140">0</text><text class="label" x="208" y="158">Pull requests</text><rect class="accent" x="368" y="118" width="3" height="40" rx="1.5"/><text class="value" x="380" y="140">7</text><text class="label" x="380" y="158">Public repositories</text><rect class="accent" x="540" y="118" width="3" height="40" rx="1.5"/><text class="value" x="552" y="140">0</text><text class="label" x="552" y="158">Stars earned</text></svg>
