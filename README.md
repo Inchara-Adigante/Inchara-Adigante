@@ -75,9 +75,16 @@ An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs.
 
 ---
 
-### GitHub stats
+### GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=Inchara-Adigante&theme=transparent&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=21600" alt="GitHub stats">
-  <img height="165" src="https://streak-stats.demolab.com/?user=Inchara-Adigante&theme=transparent&hide_border=true&mode=daily" alt="GitHub streak">
+  <img src="assets/stats.svg" alt="GitHub activity: contributions, streaks, pull requests, repositories and stars">
 </p>
+<p align="center">
+  <img src="assets/contributions.svg" alt="Contribution calendar for the last 12 months">
+</p>
+<p align="center">
+  <img src="assets/languages.svg" alt="Top languages across public repositories">
+</p>
+
+<sub>Generated daily from GitHub's API by <a href="scripts/github_stats.py">scripts/github_stats.py</a>.</sub>
