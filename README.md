@@ -99,9 +99,6 @@ System design and data engineering explained simply, with diagrams and simulatio
   <img src="assets/stats.svg" alt="GitHub activity: contributions, streaks, pull requests, repositories and stars">
 </p>
 <p align="center">
-  <img src="assets/contributions.svg" alt="Contribution calendar for the last 12 months">
-</p>
-<p align="center">
   <img src="assets/languages.svg" alt="Top languages across public repositories">
 </p>
 
