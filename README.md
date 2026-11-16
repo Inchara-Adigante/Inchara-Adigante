@@ -1,13 +1,15 @@
 <h1 align="center">Hi, I'm Inchara Adigante 👋</h1>
 
 <p align="center">
-  <b>Data & Machine Learning Engineer</b> · Northeastern University · Boston, MA (open to relocation)
+  <b>Data Engineer</b> · MS Information Systems, Northeastern University (Dec 2026) · Boston, MA (open to relocation)
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/incharaadigante"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:adiganteinchara@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://adiganteinchara.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="https://github.com/Inchara-Adigante"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/AWS%20Certified-Data%20Engineer%20Associate-FF9900?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS Certified Data Engineer – Associate">
 </p>
 
 ---
@@ -19,9 +21,19 @@ I'm a data engineer who builds platforms end to end: from raw, messy source data
 - 🏗️ **Data engineering:** PySpark batch and Structured Streaming, data lakes on S3, star schemas with SCD Type 2, incremental loads and backfills, Airflow orchestration
 - ✅ **Data quality & reliability:** write-audit-publish, automated quality checks, exactly-once streaming sinks, monitoring and runbooks
 - 🤖 **ML & AI:** TensorFlow, scikit-learn, reliability analysis, LLM agents with tool use and grounded, cited answers
-- ☁️ **Cloud & DevOps:** AWS (S3, Glue, Athena, Redshift) infrastructure as code, GCP, Azure, Terraform, Docker, CI/CD with GitHub Actions
+- ☁️ **Cloud & DevOps:** AWS Certified Data Engineer – Associate (S3, Glue, Redshift, Athena), Snowflake, GCP, Azure, Terraform, Docker, CI/CD with GitHub Actions
 - 📊 **Analytics:** SQL, DuckDB, Power BI (DAX), Streamlit, Splunk
 - 📫 Open to **Data Engineer, Analytics Engineer and ML Engineer** roles
+
+---
+
+### Experience
+
+| Role | Highlights |
+|---|---|
+| **Data Engineer Co-op**, Skyworks Solutions · Jun–Dec 2025 | Cut a recurring report from **3+ hours to under 10 minutes**; automated data checks that removed **15+ hours** of manual review a week at 99% accuracy |
+| **Packaged App Development Associate**, Accenture · Nov 2023–Jul 2024 | Made **15+ scheduled ETL workflows 45% faster** (Python, PySpark, SQL, Snowflake); added 20+ Snowflake data-quality checks |
+| **Data Engineering Intern**, Bharat Electronics · Jun–Dec 2022 | Standardized **12,000+ radar module test records** and built Power BI dashboards to spot recurring batch failures |
 
 ---
 
@@ -57,6 +69,12 @@ An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs.
 
 `Python` `LangGraph` `FastAPI` `Streamlit` `Pinecone` `PostgreSQL` `Airflow` `GCP`
 
+### 📚 Learning in public
+
+System design and data engineering explained simply, with diagrams and simulations, in [Lets-Learn](https://github.com/Inchara-Adigante/Lets-Learn):
+- [How a video gets millions of likes](https://github.com/Inchara-Adigante/Lets-Learn/blob/main/system-design/how-like-counts-work.md): hot keys, sharded counters, batching (with an [interactive simulation](https://github.com/Inchara-Adigante/Lets-Learn/tree/main/system-design/likes-simulation))
+- [How ticket sites stop two people booking the same seat](https://github.com/Inchara-Adigante/Lets-Learn/blob/main/system-design/how-seat-booking-works.md): race conditions, row locks, constraints, seat holds
+
 ---
 
 ### Tech stack
@@ -65,7 +83,7 @@ An end-to-end reliability analytics platform for a simulated fleet of 2,000 EVs.
 
 **Data & ML:** ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=flat&logo=scipy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 
-**Databases:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apachecassandra&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat&logo=amazonredshift&logoColor=white)
+**Databases:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apachecassandra&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat&logo=amazonredshift&logoColor=white)
 
 **Pipelines & DevOps:** ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
 
